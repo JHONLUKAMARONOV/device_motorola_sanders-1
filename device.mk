@@ -14,6 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# GoogleCamera
+$(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
+
 # Set boot SPL
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
