@@ -1,8 +1,8 @@
 [
   {
-    "repository":  "kernel_motorola_msm8953",
+    "repository":  "Dybios/kernel_motorola_sanders",
     "target_path": "kernel/motorola/msm8953",
-    "branch": "ten"
+    "branch": "croquette-release"
   },
   {
     "repository": "vendor_motorola_sanders",
