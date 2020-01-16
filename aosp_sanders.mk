@@ -20,9 +20,9 @@ $(call inherit-product, device/motorola/sanders/full_sanders.mk)
 
 # Inherit some common Pixel Experience stuff.
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, /vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_GOOGLE_RECORDER :=True
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
